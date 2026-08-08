@@ -1,0 +1,204 @@
+[debug] [2026-08-08T13:55:51.443Z] ----------------------------------------------------------------------
+[debug] [2026-08-08T13:55:51.455Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ZIRENGA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2026-08-08T13:55:51.456Z] CLI Version:   15.26.0
+[debug] [2026-08-08T13:55:51.456Z] Platform:      win32
+[debug] [2026-08-08T13:55:51.457Z] Node Version:  v24.19.0
+[debug] [2026-08-08T13:55:51.458Z] Detected Agent: unknown
+[debug] [2026-08-08T13:55:51.458Z] Time:          Sat Aug 08 2026 15:55:51 GMT+0200 (Central Africa Time)
+[debug] [2026-08-08T13:55:51.458Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-08T13:55:56.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-08T13:55:56.230Z] > authorizing via signed-in user (kennethzirenga@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2026-08-08T13:55:56.255Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-08-08T13:55:56.255Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2026-08-08T13:55:56.266Z] Write emulator hub locator at C:\Users\ZIRENGA\AppData\Local\Temp\hub-marketplace-app-d6b93.json
+[debug] [2026-08-08T13:55:56.295Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-08-08T13:55:56.296Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-08-08T13:55:56.296Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-08-08T13:55:56.296Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2026-08-08T13:55:56.340Z] defaultcredentials: writing to file C:\Users\ZIRENGA\AppData\Roaming\firebase\kennethzirenga_gmail_com_application_default_credentials.json
+[debug] [2026-08-08T13:55:56.345Z] Setting GAC to C:\Users\ZIRENGA\AppData\Roaming\firebase\kennethzirenga_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ZIRENGA\\AppData\\Roaming\\firebase\\kennethzirenga_gmail_com_application_default_credentials.json"}}
+[debug] [2026-08-08T13:55:56.348Z] Checked if tokens are valid: false, expires at: 1786196418181
+[debug] [2026-08-08T13:55:56.348Z] Checked if tokens are valid: false, expires at: 1786196418181
+[debug] [2026-08-08T13:55:56.349Z] > refreshing access token with scopes: []
+[debug] [2026-08-08T13:55:56.353Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-08-08T13:55:56.353Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-08T13:55:57.041Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-08-08T13:55:57.041Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-08T13:55:57.097Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-app-d6b93/adminSdkConfig [none]
+[debug] [2026-08-08T13:55:58.750Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-app-d6b93/adminSdkConfig 200
+[debug] [2026-08-08T13:55:58.751Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-app-d6b93/adminSdkConfig {"projectId":"marketplace-app-d6b93","storageBucket":"marketplace-app-d6b93.firebasestorage.app"}
+[info] i  functions: Watching "C:\Users\ZIRENGA\Desktop\MarketPlaceApp\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\" for Cloud Functions..."}}
+[debug] [2026-08-08T13:55:58.951Z] Validating nodejs source
+[debug] [2026-08-08T13:56:04.259Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "24"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "dotenv": "^17.4.2",
+    "firebase-admin": "^13.6.0",
+    "firebase-functions": "^7.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.4.1"
+  },
+  "private": true
+}
+[debug] [2026-08-08T13:56:04.260Z] Building nodejs source
+[debug] [2026-08-08T13:56:04.260Z] Failed to find version of module node: reached end of search path C:\Users\ZIRENGA\Desktop\MarketPlaceApp\functions\node_modules
+[info] +  functions: Using node@24 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2026-08-08T13:56:04.269Z] Could not find functions.yaml. Must use http discovery
+[debug] [2026-08-08T13:56:04.282Z] Found firebase-functions binary at 'C:\Users\ZIRENGA\Desktop\MarketPlaceApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8357
+
+[info] ◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+[debug] [2026-08-08T13:56:06.327Z] Got response from /__/functions.yaml {"endpoints":{"createPayChanguPayment":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":10,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"createPayChanguPayment"},"paymentReturn":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":10,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"paymentReturn"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[info] +  functions: Loaded functions definitions from source: createPayChanguPayment, paymentReturn. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: createPayChanguPayment, paymentReturn."}}
+[info] +  functions[us-central1-createPayChanguPayment]: http function initialized (http://127.0.0.1:5001/marketplace-app-d6b93/us-central1/createPayChanguPayment). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/marketplace-app-d6b93/us-central1/createPayChanguPayment)."}}
+[info] +  functions[us-central1-paymentReturn]: http function initialized (http://127.0.0.1:5001/marketplace-app-d6b93/us-central1/paymentReturn). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/marketplace-app-d6b93/us-central1/paymentReturn)."}}
+[debug] [2026-08-08T13:56:09.465Z] Could not find VSCode notification endpoint: TypeError: fetch failed. If you are not running the Firebase SQL Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2026-08-08T14:08:52.158Z] File C:\Users\ZIRENGA\Desktop\MarketPlaceApp\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\index.js changed, reloading triggers"}}
+[debug] [2026-08-08T14:08:53.174Z] Validating nodejs source
+[debug] [2026-08-08T14:08:58.318Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "24"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "dotenv": "^17.4.2",
+    "firebase-admin": "^13.6.0",
+    "firebase-functions": "^7.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.4.1"
+  },
+  "private": true
+}
+[debug] [2026-08-08T14:08:58.319Z] Building nodejs source
+[debug] [2026-08-08T14:08:58.320Z] Failed to find version of module node: reached end of search path C:\Users\ZIRENGA\Desktop\MarketPlaceApp\functions\node_modules
+[info] +  functions: Using node@24 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2026-08-08T14:08:58.325Z] Could not find functions.yaml. Must use http discovery
+[debug] [2026-08-08T14:08:58.422Z] Found firebase-functions binary at 'C:\Users\ZIRENGA\Desktop\MarketPlaceApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8292
+
+[info] ◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+[debug] [2026-08-08T14:09:00.681Z] Got response from /__/functions.yaml {"endpoints":{"createPayChanguPayment":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":10,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"createPayChanguPayment"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[info] +  functions: Loaded functions definitions from source: createPayChanguPayment. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: createPayChanguPayment."}}
+[debug] [2026-08-08T14:13:40.702Z] [work-queue] {"queuedWork":["/marketplace-app-d6b93/us-central1/createPayChanguPayment-2026-08-08T14:13:40.702Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2026-08-08T14:13:40.703Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/marketplace-app-d6b93/us-central1/createPayChanguPayment-2026-08-08T14:13:40.702Z"],"workRunningCount":1}
+[debug] [2026-08-08T14:13:40.704Z] Accepted request POST /marketplace-app-d6b93/us-central1/createPayChanguPayment --> us-central1-createPayChanguPayment
+[debug] [2026-08-08T14:13:40.720Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2026-08-08T14:13:40.721Z] [functions] Got req.url=/marketplace-app-d6b93/us-central1/createPayChanguPayment, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/marketplace-app-d6b93/us-central1/createPayChanguPayment, mapping to path=/"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2026-08-08T14:13:43.194Z] [worker-pool] addWorker(us-central1-createPayChanguPayment) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-createPayChanguPayment)"}}
+[debug] [2026-08-08T14:13:43.195Z] [worker-pool] Adding worker with key us-central1-createPayChanguPayment, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-createPayChanguPayment, total=1"}}
+[debug] [2026-08-08T14:13:52.195Z] [runtime-status] [22964] Resolved module firebase-admin {"declared":true,"installed":true,"version":"13.10.0","resolution":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"13.10.0\",\"resolution\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2026-08-08T14:13:52.210Z] [runtime-status] [22964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"7.3.2","resolution":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"7.3.2\",\"resolution\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2026-08-08T14:13:52.211Z] [runtime-status] [22964] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2026-08-08T14:13:52.255Z] [runtime-status] [22964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"7.3.2","resolution":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"7.3.2\",\"resolution\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2026-08-08T14:13:52.255Z] [runtime-status] [22964] Detected firebase-functions v7+, skipping legacy stubs. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Detected firebase-functions v7+, skipping legacy stubs."}}
+[debug] [2026-08-08T14:13:52.261Z] [runtime-status] [22964] Resolved module firebase-admin {"declared":true,"installed":true,"version":"13.10.0","resolution":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"13.10.0\",\"resolution\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2026-08-08T14:13:53.007Z] [runtime-status] [22964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"7.3.2","resolution":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"7.3.2\",\"resolution\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2026-08-08T14:13:55.510Z] [runtime-status] [22964] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"13.10.0","resolution":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"13.10.0\",\"resolution\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[info] >  ◇ injected env (0) from .env // tip: ⌘ override existing { override: true } {"user":"◇ injected env (0) from .env // tip: ⌘ override existing { override: true }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }"}}
+[debug] [2026-08-08T14:13:56.117Z] [runtime-status] [22964] Functions runtime initialized. {"cwd":"C:\\Users\\ZIRENGA\\Desktop\\MarketPlaceApp\\functions","node_version":"24.19.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\ZIRENGA\\\\Desktop\\\\MarketPlaceApp\\\\functions\",\"node_version\":\"24.19.0\"}"}}
+[debug] [2026-08-08T14:13:56.117Z] [runtime-status] [22964] Listening to port: \\?\pipe\fire_emu_fdbc3caf01851724 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[runtime-status] [22964] Listening to port: \\\\?\\pipe\\fire_emu_fdbc3caf01851724"}}
+[debug] [2026-08-08T14:13:56.282Z] [worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: IDLE"}}
+[debug] [2026-08-08T14:13:56.282Z] [worker-pool] submitRequest(triggerId=us-central1-createPayChanguPayment) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-createPayChanguPayment)"}}
+[info] i  functions: Beginning execution of "us-central1-createPayChanguPayment" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Beginning execution of \"us-central1-createPayChanguPayment\""}}
+[debug] [2026-08-08T14:13:56.284Z] [worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: BUSY"}}
+[info] >  PayChangu response: { {"user":"PayChangu response: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m PayChangu response: {"}}
+[info] >    message: 'Hosted payment session generated successfully.', {"user":"  message: 'Hosted payment session generated successfully.',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   message: 'Hosted payment session generated successfully.',"}}
+[info] >    status: 'success', {"user":"  status: 'success',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   status: 'success',"}}
+[info] >    data: { {"user":"  data: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   data: {"}}
+[info] >      event: 'checkout.session:created', {"user":"    event: 'checkout.session:created',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     event: 'checkout.session:created',"}}
+[info] >      checkout_url: 'https://test-checkout.paychangu.com/7834097672', {"user":"    checkout_url: 'https://test-checkout.paychangu.com/7834097672',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     checkout_url: 'https://test-checkout.paychangu.com/7834097672',"}}
+[info] >      data: { {"user":"    data: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     data: {"}}
+[info] >        tx_ref: 'marketplace_1786198436399', {"user":"      tx_ref: 'marketplace_1786198436399',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       tx_ref: 'marketplace_1786198436399',"}}
+[info] >        currency: 'MWK', {"user":"      currency: 'MWK',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       currency: 'MWK',"}}
+[info] >        amount: 84000, {"user":"      amount: 84000,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       amount: 84000,"}}
+[info] >        mode: 'sandbox', {"user":"      mode: 'sandbox',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       mode: 'sandbox',"}}
+[info] >        status: 'pending', {"user":"      status: 'pending',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       status: 'pending',"}}
+[info] >        popup: false {"user":"      popup: false","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       popup: false"}}
+[info] >      } {"user":"    }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     }"}}
+[info] >    } {"user":"  }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   }"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2026-08-08T14:13:57.779Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-createPayChanguPayment" in 1495.8543ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finished \"us-central1-createPayChanguPayment\" in 1495.8543ms"}}
+[debug] [2026-08-08T14:13:57.780Z] [worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: IDLE"}}
+[debug] [2026-08-08T14:13:57.780Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2026-08-08T14:13:57.781Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2026-08-08T14:13:57.781Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2026-08-08T15:54:42.652Z] [work-queue] {"queuedWork":["/marketplace-app-d6b93/us-central1/createPayChanguPayment-2026-08-08T15:54:42.608Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2026-08-08T15:54:42.678Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/marketplace-app-d6b93/us-central1/createPayChanguPayment-2026-08-08T15:54:42.608Z"],"workRunningCount":1}
+[debug] [2026-08-08T15:54:42.681Z] Accepted request POST /marketplace-app-d6b93/us-central1/createPayChanguPayment --> us-central1-createPayChanguPayment
+[debug] [2026-08-08T15:54:42.776Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2026-08-08T15:54:42.778Z] [functions] Got req.url=/marketplace-app-d6b93/us-central1/createPayChanguPayment, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/marketplace-app-d6b93/us-central1/createPayChanguPayment, mapping to path=/"}}
+[debug] [2026-08-08T15:54:42.779Z] [worker-pool] submitRequest(triggerId=us-central1-createPayChanguPayment) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-createPayChanguPayment)"}}
+[info] i  functions: Beginning execution of "us-central1-createPayChanguPayment" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Beginning execution of \"us-central1-createPayChanguPayment\""}}
+[debug] [2026-08-08T15:54:42.785Z] [worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: BUSY"}}
+[info] >  PayChangu response: { {"user":"PayChangu response: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m PayChangu response: {"}}
+[info] >    message: 'Hosted payment session generated successfully.', {"user":"  message: 'Hosted payment session generated successfully.',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   message: 'Hosted payment session generated successfully.',"}}
+[info] >    status: 'success', {"user":"  status: 'success',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   status: 'success',"}}
+[info] >    data: { {"user":"  data: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   data: {"}}
+[info] >      event: 'checkout.session:created', {"user":"    event: 'checkout.session:created',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     event: 'checkout.session:created',"}}
+[info] >      checkout_url: 'https://test-checkout.paychangu.com/5712249748', {"user":"    checkout_url: 'https://test-checkout.paychangu.com/5712249748',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     checkout_url: 'https://test-checkout.paychangu.com/5712249748',"}}
+[info] >      data: { {"user":"    data: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     data: {"}}
+[info] >        tx_ref: 'marketplace_1786204482895', {"user":"      tx_ref: 'marketplace_1786204482895',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       tx_ref: 'marketplace_1786204482895',"}}
+[info] >        currency: 'MWK', {"user":"      currency: 'MWK',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       currency: 'MWK',"}}
+[info] >        amount: 104000, {"user":"      amount: 104000,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       amount: 104000,"}}
+[info] >        mode: 'sandbox', {"user":"      mode: 'sandbox',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       mode: 'sandbox',"}}
+[info] >        status: 'pending', {"user":"      status: 'pending',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       status: 'pending',"}}
+[info] >        popup: false {"user":"      popup: false","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m       popup: false"}}
+[info] >      } {"user":"    }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m     }"}}
+[info] >    } {"user":"  }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m   }"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2026-08-08T15:54:44.959Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-createPayChanguPayment" in 2174.9276ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finished \"us-central1-createPayChanguPayment\" in 2174.9276ms"}}
+[debug] [2026-08-08T15:54:44.960Z] [worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"[worker-us-central1-createPayChanguPayment-938f7d95-5bc1-409e-a2d1-57f3b1d6b14a]: IDLE"}}
+[debug] [2026-08-08T15:54:44.961Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2026-08-08T15:54:44.961Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-createPayChanguPayment"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2026-08-08T15:54:44.964Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

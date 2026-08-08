@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MarketplaceApp.Starting"
+        parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#123B6D</item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/collection
+        </item>
+        <item name="postSplashScreenTheme">
+            @style/Theme.MarketplaceApp
+        </item>
+    </style>
+    <style name="Theme.MarketplaceApp"
+        parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#123B6D</item>
+        <item name="android:navigationBarColor">#123B6D</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
