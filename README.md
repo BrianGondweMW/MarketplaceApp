@@ -91,28 +91,50 @@ The project provided practical experience in developing and integrating differen
 
 The project consists of three main components:
 
-                    MarketplaceApp
+                    🏗️ System Architecture
+
+The MarketplaceApp consists of three main components connected through Firebase services and external APIs:
+
+┌─────────────────────────────────────────────────────┐
+│                  MARKETPLACE APP                     │
+└─────────────────────────────────────────────────────┘
                          │
           ┌──────────────┴──────────────┐
           │                             │
-   Android Mobile App             Admin Portal
-   Kotlin + Compose              React + Vite
-          │                             │
-          └──────────────┬──────────────┘
-                         │
-                  Firebase Services
-                         │
-             ┌───────────┴───────────┐
-             │                       │
-       Authentication           Firestore
-             │                       │
-             └───────────┬───────────┘
-                         │
-                  Cloud Functions
-                         │
-                  External APIs
-                         │
-                   PayChangu
+          ▼                             ▼
+┌───────────────────┐          ┌──────────────────────┐
+│ Android Mobile    │          │   Admin Portal       │
+│ Application       │          │                      │
+│                   │          │ React + Vite         │
+│ Kotlin            │          │ JavaScript           │
+│ Jetpack Compose   │          │ CSS                  │
+└─────────┬─────────┘          └──────────┬───────────┘
+          │                               │
+          └───────────────┬───────────────┘
+                          ▼
+              ┌─────────────────────────┐
+              │    Firebase Services    │
+              │                         │
+              │ • Authentication        │
+              │ • Cloud Firestore       │
+              │ • Cloud Functions       │
+              └────────────┬────────────┘
+                           │
+                           ▼
+              ┌─────────────────────────┐
+              │    External Services    │
+              │                         │
+              │ • PayChangu API         │
+              │ • Payment Processing     │
+              └─────────────────────────┘
+
+Application Flow
+
+Users → Android App → Firebase → External Services
+
+Administrators → Admin Portal → Firebase → Database & Cloud Functions
+
+This architecture separates the mobile application, administration interface, backend services, database, and external payment services into distinct components.
 
 🎯 Project Objective
 
