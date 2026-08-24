@@ -1,89 +1,140 @@
-Marketplace App
+MarketplaceApp
 
-BICT2406 Mini Project – Group 3
+A full-stack digital marketplace platform developed as an academic software development project. The system combines an Android mobile application with a Firebase backend and a web-based administration portal.
 
-A mobile marketplace application developed using Android Studio, Kotlin, Jetpack Compose, Firebase, and PayChangu. The application allows users to browse products, view product details, rate and like products, manage a shopping cart, and proceed through checkout and payment.
+📱 Project Overview
 
-The project also includes a web-based administration portal for managing products stored in Firebase.
+MarketplaceApp allows users to create accounts, browse products, view product details, interact with products, add items to a shopping cart, and proceed through checkout.
 
-Group Members
+The system also includes an administration portal for managing marketplace products and platform data.
 
-Name	Student ID
-Solomon N Mfune	BICTU1725
-Christopher Nkankha	BICTU2125
-Brian Gondwe	BICTU0725
-Kenneth Zirenga BICTU2625
+✨ Key Features
 
-Implemented Features
+Mobile Application
 
-* User registration and login using Firebase Authentication
-* Product browsing
-* Product categories
+* User registration and authentication
+* Product browsing and categories
 * Product details
 * Product ratings
-* Product like functionality
+* Like/favourite products
 * Shopping cart
-* Checkout
-* PayChangu payment integration
-* Payment success handling
-* Firebase Firestore product storage
-* Firebase-connected administration portal
-* Admin product management
-    * Add products
-    * Edit products
-    * Delete products
-* Responsive Jetpack Compose user interface
-* Marketplace splash screen
-* Firebase Hosting for the administration portal
-
-Technologies Used
-
-* Kotlin
-* Android Studio
-* Jetpack Compose
-* Material 3
-* Firebase Authentication
-* Firebase Firestore
-* Firebase Functions
-* Firebase Hosting
-* PayChangu
-* React
-* Vite
-* GitHub
-
-Project Structure
-
-MarketplaceApp/
-├── app/          # Android mobile application
-├── admin/        # Web administration portal
-├── functions/    # Firebase Cloud Functions
-├── images/       # Project images
-├── gradle/       # Gradle configuration
-└── README.md
+* Cart quantity management
+* Automatic cart total calculation
+* Checkout functionality
+* Product images
+* Firebase data integration
 
 Administration Portal
 
-The project includes a web administration portal that connects to Firebase. Changes made by an administrator to products are stored in Firebase and can be reflected in the mobile application.
+* Admin authentication
+* Product management
+* Add products
+* Edit products
+* Delete products
+* Product information management
 
-Firebase
+Backend & Services
 
-Firebase is used for authentication, Firestore database services, cloud functions, and hosting of the administration portal.
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Cloud Functions
+* Payment integration
+* API-based services
 
-Payment
+🛠️ Technology Stack
 
-The application integrates PayChangu to provide a checkout/payment process.
+Mobile Development
 
-Development
+* Kotlin
+* Jetpack Compose
+* Android
 
-The project was developed progressively, beginning with the application interface and Firebase integration, followed by product browsing, authentication, cart and checkout functionality, payment integration, and finally the administration portal.
+Backend
 
-Repository
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Cloud Functions
 
-The complete project is available on GitHub:
+Web Administration
 
-https://github.com/kennethzirenga-cyber/MarketplaceApp
+* React
+* Vite
 
-Academic Submission
+Other Technologies
 
-Course: BICT2406 Mini Project
-Group: 3
+* REST/API integration
+* PayChangu payment integration
+* Coil for image loading
+
+👨🏾‍💻 My Development Experience
+
+As a contributor to this project, I worked hands-on with the development and debugging of the marketplace system across the mobile application, backend services, and supporting functionality.
+
+My practical work included implementing and troubleshooting:
+
+* Android UI using Jetpack Compose
+* Firebase Authentication
+* Firestore data handling
+* Product browsing and product details
+* Likes and ratings
+* Shopping cart functionality
+* Cart quantities and total calculations
+* Application navigation
+* Product image loading
+* API and payment integration
+* Firebase Cloud Functions
+* Debugging application and backend issues
+
+The project provided practical experience in developing and integrating different components of a complete digital product.
+
+🏗️ System Architecture
+
+The project consists of three main components:
+
+                    MarketplaceApp
+                         │
+          ┌──────────────┴──────────────┐
+          │                             │
+   Android Mobile App             Admin Portal
+   Kotlin + Compose              React + Vite
+          │                             │
+          └──────────────┬──────────────┘
+                         │
+                  Firebase Services
+                         │
+             ┌───────────┴───────────┐
+             │                       │
+       Authentication           Firestore
+             │                       │
+             └───────────┬───────────┘
+                         │
+                  Cloud Functions
+                         │
+                  External APIs
+                         │
+                   PayChangu
+
+🎯 Project Objective
+
+The objective of the project was to design and develop a functional marketplace platform demonstrating practical skills in mobile application development, database management, authentication, API integration, user interface design, and full-stack system development.
+
+📚 Academic Project
+
+This project was developed as part of an academic software development project and involved collaborative development.
+
+🚀 Future Improvements
+
+Potential improvements include:
+
+* Improved offline support
+* Enhanced search and filtering
+* Push notifications
+* More advanced analytics
+* Improved payment workflows
+* Expanded user profiles
+* Automated testing
+* Further security and performance improvements
+
+📌 Portfolio
+
+This project demonstrates practical experience in building and integrating a modern mobile and web-based digital platform using Kotlin, Jetpack Compose, Firebase, React, APIs, and cloud services.
