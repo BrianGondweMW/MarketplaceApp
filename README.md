@@ -119,6 +119,21 @@ The project includes deployment documentation containing screenshots and evidenc
 
 The documentation provides additional evidence of the project’s development and deployment, including the mobile application, backend configuration, and supporting components.
 
+💼 Skills Demonstrated
+
+This project provided practical experience in:
+
+* Mobile Application Development — Kotlin and Jetpack Compose
+* Web Application Development — React and Vite
+* Database Development — Cloud Firestore
+* Authentication — Firebase Authentication
+* API Integration — REST/API services and PayChangu
+* Backend Development — Firebase Cloud Functions
+* UI Development — responsive and user-focused interfaces
+* Admin Systems — product management and administration functionality
+* Application Debugging — identifying and resolving integration and runtime issues
+* Full-Stack Integration — connecting mobile, web, backend, database, and external services
+
 🎯 Project Objective
 
 The objective of the project was to design and develop a functional marketplace platform demonstrating practical skills in mobile application development, database management, authentication, API integration, user interface design, and full-stack system development.
