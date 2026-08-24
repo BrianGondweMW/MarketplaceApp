@@ -66,7 +66,7 @@ Other Technologies
 * PayChangu payment integration
 * Coil for image loading
 
-👨🏾‍💻 My Development Experience
+👨🏾‍💻 My Contributions
 
 As a contributor to this project, I worked hands-on with the development and debugging of the marketplace system across the mobile application, backend services, and supporting functionality.
 
