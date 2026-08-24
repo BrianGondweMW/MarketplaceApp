@@ -87,11 +87,7 @@ My practical work included implementing and troubleshooting:
 
 The project provided practical experience in developing and integrating different components of a complete digital product.
 
-🏗️ System Architecture
-
-The project consists of three main components:
-
-    🏗️ System Architecture
+🏗️ System Architecture 
 
 MarketplaceApp is structured into three main parts:
 
@@ -114,6 +110,14 @@ Firebase provides the backend services used by both the mobile application and a
 The platform also integrates with PayChangu for payment processing.
 
 This architecture allows the mobile application and administration portal to communicate with a shared cloud backend while keeping the different components of the system organized.
+
+📸 Screenshots & Deployment Documentation
+
+The project includes deployment documentation containing screenshots and evidence of the application’s implementation, configuration, and deployment process.
+
+📄 View Deployment Documentation
+
+The documentation provides additional evidence of the project’s development and deployment, including the mobile application, backend configuration, and supporting components.
 
 🎯 Project Objective
 
