@@ -113,11 +113,9 @@ This architecture allows the mobile application and administration portal to com
 
 📸 Screenshots & Deployment Documentation
 
-The project includes deployment documentation containing screenshots and evidence of the application’s implementation, configuration, and deployment process.
+Screenshots and deployment evidence for the project are available in the DEPLOYMENT_DOCUMENTATION.pdf file included in this repository.
 
-📄 View Deployment Documentation
-
-The documentation provides additional evidence of the project’s development and deployment, including the mobile application, backend configuration, and supporting components.
+The documentation contains evidence of the application’s implementation, configuration, and deployment process, including the mobile application, backend configuration, and supporting components.
 
 💼 Skills Demonstrated
 
