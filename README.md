@@ -91,50 +91,29 @@ The project provided practical experience in developing and integrating differen
 
 The project consists of three main components:
 
-                    🏗️ System Architecture
+    🏗️ System Architecture
 
-The MarketplaceApp consists of three main components connected through Firebase services and external APIs:
+MarketplaceApp is structured into three main parts:
 
-┌─────────────────────────────────────────────────────┐
-│                  MARKETPLACE APP                     │
-└─────────────────────────────────────────────────────┘
-                         │
-          ┌──────────────┴──────────────┐
-          │                             │
-          ▼                             ▼
-┌───────────────────┐          ┌──────────────────────┐
-│ Android Mobile    │          │   Admin Portal       │
-│ Application       │          │                      │
-│                   │          │ React + Vite         │
-│ Kotlin            │          │ JavaScript           │
-│ Jetpack Compose   │          │ CSS                  │
-└─────────┬─────────┘          └──────────┬───────────┘
-          │                               │
-          └───────────────┬───────────────┘
-                          ▼
-              ┌─────────────────────────┐
-              │    Firebase Services    │
-              │                         │
-              │ • Authentication        │
-              │ • Cloud Firestore       │
-              │ • Cloud Functions       │
-              └────────────┬────────────┘
-                           │
-                           ▼
-              ┌─────────────────────────┐
-              │    External Services    │
-              │                         │
-              │ • PayChangu API         │
-              │ • Payment Processing     │
-              └─────────────────────────┘
+1. Android Mobile Application
 
-Application Flow
+The mobile application is built with Kotlin and Jetpack Compose. It provides the main interface for customers to register, log in, browse products, view product details, like and rate products, manage their shopping cart, and proceed through checkout.
 
-Users → Android App → Firebase → External Services
+2. Web Administration Portal
 
-Administrators → Admin Portal → Firebase → Database & Cloud Functions
+The administration portal is built using React and Vite. It provides administrators with functionality for managing marketplace products and related platform information.
 
-This architecture separates the mobile application, administration interface, backend services, database, and external payment services into distinct components.
+3. Firebase Backend
+
+Firebase provides the backend services used by both the mobile application and administration portal. These include:
+
+* Firebase Authentication — user authentication and account management
+* Cloud Firestore — storing and retrieving application data
+* Firebase Cloud Functions — server-side functionality and API-related operations
+
+The platform also integrates with PayChangu for payment processing.
+
+This architecture allows the mobile application and administration portal to communicate with a shared cloud backend while keeping the different components of the system organized.
 
 🎯 Project Objective
 
