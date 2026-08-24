@@ -68,7 +68,7 @@ Other Technologies
 
 👨🏾‍💻 My Contributions
 
-As a contributor to this project, I worked hands-on with the development and debugging of the marketplace system across the mobile application, backend services, and supporting functionality.
+As a contributor to this academic project, I gained hands-on experience in the design, development, integration, and debugging of the marketplace platform. I worked across the Android application, Firebase backend, APIs, and supporting functionality while collaborating on the overall system.
 
 My practical work included implementing and troubleshooting:
 
