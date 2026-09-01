@@ -1,12 +1,27 @@
 MarketplaceApp
 
-A full-stack digital marketplace platform developed as an academic software development project. The system combines an Android mobile application with a Firebase backend and a web-based administration portal.
+A full-stack digital marketplace platform developed as an academic software development project. The system combines an Android mobile application, Firebase backend, and React-based web administration portal.
+
+🚀 Live Project
+
+Web Administration Portal
+
+Live Admin Portal:
+https://marketplace-app-d6b93.web.app/
+
+The administration portal provides authenticated administrators with tools to manage marketplace products, including adding, editing, viewing, and deleting products.
+
+Demo access: Admin credentials can be provided to authorized reviewers upon request.
+
+⸻
 
 📱 Project Overview
 
-MarketplaceApp allows users to create accounts, browse products, view product details, interact with products, add items to a shopping cart, and proceed through checkout.
+MarketplaceApp is a digital marketplace platform that allows users to create accounts, browse products, view product details, interact with products, add items to a shopping cart, and proceed through checkout.
 
-The system also includes an administration portal for managing marketplace products and platform data.
+The platform also includes a web-based administration portal for managing marketplace products.
+
+⸻
 
 ✨ Key Features
 
@@ -21,25 +36,29 @@ Mobile Application
 * Cart quantity management
 * Automatic cart total calculation
 * Checkout functionality
-* Product images
+* Product image loading
 * Firebase data integration
+* Payment integration
 
-Administration Portal
+Web Administration Portal
 
-* Admin authentication
-* Product management
+* Secure administrator authentication
+* Product management dashboard
 * Add products
 * Edit products
 * Delete products
-* Product information management
+* Manage product information
+* Firebase Firestore integration
 
 Backend & Services
 
 * Firebase Authentication
 * Cloud Firestore
 * Firebase Cloud Functions
-* Payment integration
-* API-based services
+* REST/API integration
+* PayChangu payment integration
+
+⸻
 
 🛠️ Technology Stack
 
@@ -62,83 +81,122 @@ Web Administration
 
 Other Technologies
 
-* REST/API integration
-* PayChangu payment integration
+* REST APIs
+* PayChangu
 * Coil for image loading
+
+⸻
+
+🏗️ System Architecture
+
+MarketplaceApp consists of three major components:
+
+1. Android Mobile Application
+
+The Android application is built with Kotlin and Jetpack Compose and provides the customer-facing marketplace experience.
+
+Users can:
+
+* Register and log in
+* Browse products
+* View product details
+* Like and rate products
+* Manage their shopping cart
+* Proceed through checkout
+* Interact with payment functionality
+
+2. Web Administration Portal
+
+The administration portal is built with React and Vite.
+
+It provides authenticated administrators with functionality for managing marketplace products.
+
+The portal communicates with the same Firebase backend used by the mobile application.
+
+3. Firebase Backend
+
+Firebase provides the cloud infrastructure supporting the platform:
+
+* Firebase Authentication — user and administrator authentication
+* Cloud Firestore — storing and retrieving marketplace data
+* Firebase Cloud Functions — server-side functionality and API operations
+
+The platform also integrates with PayChangu for payment processing.
+
+⸻
 
 👨🏾‍💻 My Contributions
 
-As a contributor to this academic project, I gained hands-on experience in the design, development, integration, and debugging of the marketplace platform. I worked across the Android application, Firebase backend, APIs, and supporting functionality while collaborating on the overall system.
+As a contributor to this academic project, I gained practical experience working across the mobile application, web administration portal, Firebase backend, APIs, and supporting functionality.
 
-My practical work included implementing and troubleshooting:
+My practical work included implementing, integrating, and troubleshooting:
 
 * Android UI using Jetpack Compose
 * Firebase Authentication
-* Firestore data handling
+* Cloud Firestore data handling
 * Product browsing and product details
 * Likes and ratings
 * Shopping cart functionality
 * Cart quantities and total calculations
 * Application navigation
 * Product image loading
-* API and payment integration
+* API integration
+* Payment integration
 * Firebase Cloud Functions
-* Debugging application and backend issues
+* Application and backend debugging
 
-The project provided practical experience in developing and integrating different components of a complete digital product.
+This project provided hands-on experience integrating multiple technologies into a complete digital platform.
 
-🏗️ System Architecture 
-
-MarketplaceApp is structured into three main parts:
-
-1. Android Mobile Application
-
-The mobile application is built with Kotlin and Jetpack Compose. It provides the main interface for customers to register, log in, browse products, view product details, like and rate products, manage their shopping cart, and proceed through checkout.
-
-2. Web Administration Portal
-
-The administration portal is built using React and Vite. It provides administrators with functionality for managing marketplace products and related platform information.
-
-3. Firebase Backend
-
-Firebase provides the backend services used by both the mobile application and administration portal. These include:
-
-* Firebase Authentication — user authentication and account management
-* Cloud Firestore — storing and retrieving application data
-* Firebase Cloud Functions — server-side functionality and API-related operations
-
-The platform also integrates with PayChangu for payment processing.
-
-This architecture allows the mobile application and administration portal to communicate with a shared cloud backend while keeping the different components of the system organized.
+⸻
 
 📸 Screenshots & Deployment Documentation
 
-Screenshots and deployment evidence for the project are available in the DEPLOYMENT_DOCUMENTATION.pdf file included in this repository.
+Screenshots and deployment evidence are available in:
+
+DEPLOYMENT_DOCUMENTATION.pdf
 
 The documentation contains evidence of the application’s implementation, configuration, and deployment process, including the mobile application, backend configuration, and supporting components.
 
+⸻
+
 💼 Skills Demonstrated
 
-This project provided practical experience in:
+This project demonstrates practical experience in:
 
 * Mobile Application Development — Kotlin and Jetpack Compose
-* Web Application Development — React and Vite
+* Web Development — React and Vite
 * Database Development — Cloud Firestore
 * Authentication — Firebase Authentication
-* API Integration — REST/API services and PayChangu
 * Backend Development — Firebase Cloud Functions
-* UI Development — responsive and user-focused interfaces
-* Admin Systems — product management and administration functionality
+* API Integration — REST APIs and PayChangu
+* UI Development — Jetpack Compose and responsive web interfaces
+* Admin Systems — authenticated product management
 * Application Debugging — identifying and resolving integration and runtime issues
 * Full-Stack Integration — connecting mobile, web, backend, database, and external services
 
+⸻
+
 🎯 Project Objective
 
-The objective of the project was to design and develop a functional marketplace platform demonstrating practical skills in mobile application development, database management, authentication, API integration, user interface design, and full-stack system development.
+The objective of the project was to design and develop a functional marketplace platform demonstrating practical skills in:
+
+* Mobile application development
+* Web development
+* Database management
+* Authentication
+* API integration
+* Payment integration
+* User interface design
+* Backend development
+* Full-stack system integration
+
+⸻
 
 📚 Academic Project
 
 This project was developed as part of an academic software development project and involved collaborative development.
+
+⸻
 
 🚀 Future Improvements
 
@@ -147,12 +205,23 @@ Potential improvements include:
 * Improved offline support
 * Enhanced search and filtering
 * Push notifications
-* More advanced analytics
+* Advanced analytics
 * Improved payment workflows
 * Expanded user profiles
 * Automated testing
-* Further security and performance improvements
+* Additional security improvements
+* Performance optimization
+
+⸻
 
 📌 Portfolio
 
-This project demonstrates practical experience in building and integrating a modern mobile and web-based digital platform using Kotlin, Jetpack Compose, Firebase, React, APIs, and cloud services.
+MarketplaceApp demonstrates practical experience in building and integrating a modern digital platform using Kotlin, Jetpack Compose, Firebase, React, Vite, REST APIs, Cloud Functions, and external payment services.
+
+🔗 Project Links
+
+GitHub Repository:
+https://github.com/BrianGondweMW/MarketplaceApp
+
+Live Web Admin Portal:
+https://marketplace-app-d6b93.web.app/
